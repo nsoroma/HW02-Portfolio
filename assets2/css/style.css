@@ -22,6 +22,7 @@ body, html {
 
 nav ul {
   display: flex;
+  list-style-type: none;
 /*  border: 1px solid #000000; */
 /*   justify-content: space-between;  */
   justify-content: right;
@@ -33,6 +34,7 @@ nav ul {
 nav li {
   float: right;
   margin: 10px;
+  text-decoration: none;
 /*   border-right: 1px solid #bbb; */
 }
 
