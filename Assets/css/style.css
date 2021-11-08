@@ -6,10 +6,10 @@
   --heliotrope: #ffffff;
 }
 
-/* set content highlight color and background */
+/* set content highlight color and background
 ::selection {
-/*   background-color: var(--bright-turquoise);
-  color: var(--outer-space); */
+  background-color: var(--bright-turquoise);
+  color: var(--outer-space); 
 }
 
 /* Add hero specs */
@@ -53,28 +53,28 @@ nav a:hover {
 /* ******************* HERO IMAGE *******************  */
 .hero-image {
 
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)), url("/Assets/Images/GTPortfolioHero_RW.JPG");  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)), url("/Assets/Images/GTPortfolioHero_RW.JPG");  
 
-/* Set a specific height */
-height: 50%;
+    /* Set a specific height */
+    height: 50%;
 
-/* Position and center the image to scale nicely on all screens */
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 /* Place text in the middle of the image */
 .hero-text {
 
-position: bottom;
-text-align: right;
-right: 50%;
-/* top: 50%;
-left: 50%; */
-transform: translate(-5%, -10%);
-color: white;
+    position: bottom;
+    text-align: right;
+    right: 50%;
+    /* top: 50%;
+    left: 50%; */
+    transform: translate(-5%, -10%);
+    color: white;
 }
 
 
@@ -307,8 +307,6 @@ section {
 }
 
 
-
-
 /* Image Placeholders */
 .sample-img {
   background-color: #fff;
@@ -317,9 +315,6 @@ section {
   height: 200px;
   border: 1px solid black;
 }
-
-/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
-
 
 
 }
